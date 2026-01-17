@@ -1,0 +1,128 @@
+﻿<Page x:Class="ElectronicsShop.Pages.ProductEditPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:validation="clr-namespace:ElectronicsShop.Validation"
+      Title="Редактирование товара"
+      Loaded="Page_Loaded">
+    <Grid Margin="{StaticResource LargeMargin}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" 
+                   Text="{Binding WindowTitle}" 
+                   Style="{StaticResource HeaderTextStyle}"
+                   HorizontalAlignment="Center"/>
+
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+            <StackPanel Margin="{StaticResource StandardMargin}" MaxWidth="600">
+                <Label Content="Название *" FontWeight="Bold"/>
+                <TextBox materialDesign:HintAssist.Hint="Введите название товара">
+                    <TextBox.Text>
+                        <Binding Path="ProductName" UpdateSourceTrigger="PropertyChanged" NotifyOnValidationError="True">
+                            <Binding.ValidationRules>
+                                <validation:RequiredFieldValidationRule FieldName="Название товара"/>
+                                <validation:MaxLengthValidationRule MaxLength="200" FieldName="Название товара"/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+
+                <Label Content="Описание" FontWeight="Bold" Margin="0,10,0,0"/>
+                <TextBox materialDesign:HintAssist.Hint="Введите описание товара"
+                         Height="80"
+                         TextWrapping="Wrap"
+                         AcceptsReturn="True"
+                         VerticalScrollBarVisibility="Auto">
+                    <TextBox.Text>
+                        <Binding Path="ProductDescription" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validation:MaxLengthValidationRule MaxLength="1000" FieldName="Описание товара"/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+
+                <Label Content="Цена *" FontWeight="Bold" Margin="0,10,0,0"/>
+                <TextBox materialDesign:HintAssist.Hint="Введите цену"
+                         PreviewTextInput="DecimalValidation_PreviewTextInput">
+                    <TextBox.Text>
+                        <Binding Path="ProductPrice" UpdateSourceTrigger="PropertyChanged" NotifyOnValidationError="True">
+                            <Binding.ValidationRules>
+                                <validation:PositiveDecimalValidationRule FieldName="Цена"/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+
+                <Label Content="Количество *" FontWeight="Bold" Margin="0,10,0,0"/>
+                <TextBox materialDesign:HintAssist.Hint="Введите количество"
+                         PreviewTextInput="IntegerValidation_PreviewTextInput">
+                    <TextBox.Text>
+                        <Binding Path="ProductQuantity" UpdateSourceTrigger="PropertyChanged" NotifyOnValidationError="True">
+                            <Binding.ValidationRules>
+                                <validation:NonNegativeIntegerValidationRule FieldName="Количество"/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+
+                <Label Content="Категория *" FontWeight="Bold" Margin="0,10,0,0"/>
+                <ComboBox ItemsSource="{Binding Categories}"
+                          DisplayMemberPath="Name"
+                          SelectedValuePath="Id">
+                    <ComboBox.SelectedValue>
+                        <Binding Path="SelectedCategoryId" UpdateSourceTrigger="PropertyChanged" NotifyOnValidationError="True">
+                            <Binding.ValidationRules>
+                                <validation:ComboBoxSelectionValidationRule FieldName="категорию"/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </ComboBox.SelectedValue>
+                </ComboBox>
+
+                <Label Content="Бренд *" FontWeight="Bold" Margin="0,10,0,0"/>
+                <ComboBox ItemsSource="{Binding Brands}"
+                          DisplayMemberPath="Name"
+                          SelectedValuePath="Id">
+                    <ComboBox.SelectedValue>
+                        <Binding Path="SelectedBrandId" UpdateSourceTrigger="PropertyChanged" NotifyOnValidationError="True">
+                            <Binding.ValidationRules>
+                                <validation:ComboBoxSelectionValidationRule FieldName="бренд"/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </ComboBox.SelectedValue>
+                </ComboBox>
+
+                <Label Content="Теги (можно выбрать несколько)" FontWeight="Bold" Margin="0,10,0,0"/>
+                <ListBox x:Name="TagsListBox"
+                         ItemsSource="{Binding Tags}"
+                         DisplayMemberPath="Name"
+                         SelectionMode="Multiple"
+                         Height="120"
+                         Background="White"
+                         Margin="{StaticResource SmallMargin}"/>
+
+                <TextBlock Text="* - обязательные поля" 
+                           Foreground="Red" 
+                           FontSize="12"
+                           Margin="0,10,0,0"/>
+            </StackPanel>
+        </ScrollViewer>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" 
+                    HorizontalAlignment="Center"
+                    Margin="{StaticResource StandardMargin}">
+            <Button Content="Сохранить" 
+                    Click="Save_Click"
+                    Width="120"
+                    Margin="{StaticResource SmallMargin}"/>
+            <Button Content="Отмена" 
+                    Click="Cancel_Click"
+                    Width="120"
+                    Margin="{StaticResource SmallMargin}"/>
+        </StackPanel>
+    </Grid>
+</Page>

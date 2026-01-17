@@ -1,0 +1,67 @@
+﻿<Page x:Class="ElectronicsShop.Pages.BrandEditPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:validation="clr-namespace:ElectronicsShop.Validation"
+      Title="Редактирование бренда"
+      Loaded="Page_Loaded">
+    <Grid Margin="{StaticResource LargeMargin}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" 
+                   Text="{Binding WindowTitle}" 
+                   Style="{StaticResource HeaderTextStyle}"
+                   HorizontalAlignment="Center"/>
+
+        <StackPanel Grid.Row="1" 
+                    Margin="{StaticResource StandardMargin}"
+                    VerticalAlignment="Center"
+                    MaxWidth="600">
+            <Label Content="Название *" FontWeight="Bold"/>
+            <TextBox materialDesign:HintAssist.Hint="Введите название бренда">
+                <TextBox.Text>
+                    <Binding Path="BrandName" UpdateSourceTrigger="PropertyChanged" NotifyOnValidationError="True">
+                        <Binding.ValidationRules>
+                            <validation:RequiredFieldValidationRule FieldName="Название бренда"/>
+                            <validation:MaxLengthValidationRule MaxLength="100" FieldName="Название бренда"/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+
+            <Label Content="Страна *" FontWeight="Bold" Margin="0,10,0,0"/>
+            <TextBox materialDesign:HintAssist.Hint="Введите страну производителя">
+                <TextBox.Text>
+                    <Binding Path="BrandCountry" UpdateSourceTrigger="PropertyChanged" NotifyOnValidationError="True">
+                        <Binding.ValidationRules>
+                            <validation:RequiredFieldValidationRule FieldName="Страна"/>
+                            <validation:MaxLengthValidationRule MaxLength="100" FieldName="Страна"/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+
+            <TextBlock Text="* - обязательные поля" 
+                       Foreground="Red" 
+                       FontSize="12"
+                       Margin="0,10,0,0"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" 
+                    HorizontalAlignment="Center"
+                    Margin="{StaticResource StandardMargin}">
+            <Button Content="Сохранить" 
+                    Click="Save_Click"
+                    Width="120"
+                    Margin="{StaticResource SmallMargin}"/>
+            <Button Content="Отмена" 
+                    Click="Cancel_Click"
+                    Width="120"
+                    Margin="{StaticResource SmallMargin}"/>
+        </StackPanel>
+    </Grid>
+</Page>

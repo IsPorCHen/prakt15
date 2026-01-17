@@ -1,0 +1,55 @@
+﻿<Page x:Class="ElectronicsShop.Pages.TagEditPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:validation="clr-namespace:ElectronicsShop.Validation"
+      Title="Редактирование тега"
+      Loaded="Page_Loaded">
+    <Grid Margin="{StaticResource LargeMargin}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" 
+                   Text="{Binding WindowTitle}" 
+                   Style="{StaticResource HeaderTextStyle}"
+                   HorizontalAlignment="Center"/>
+
+        <StackPanel Grid.Row="1" 
+                    Margin="{StaticResource StandardMargin}"
+                    VerticalAlignment="Center"
+                    MaxWidth="600">
+            <Label Content="Название *" FontWeight="Bold"/>
+            <TextBox materialDesign:HintAssist.Hint="Введите название тега">
+                <TextBox.Text>
+                    <Binding Path="TagName" UpdateSourceTrigger="PropertyChanged" NotifyOnValidationError="True">
+                        <Binding.ValidationRules>
+                            <validation:RequiredFieldValidationRule FieldName="Название тега"/>
+                            <validation:MaxLengthValidationRule MaxLength="50" FieldName="Название тега"/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+
+            <TextBlock Text="* - обязательные поля" 
+                       Foreground="Red" 
+                       FontSize="12"
+                       Margin="0,10,0,0"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" 
+                    HorizontalAlignment="Center"
+                    Margin="{StaticResource StandardMargin}">
+            <Button Content="Сохранить" 
+                    Click="Save_Click"
+                    Width="120"
+                    Margin="{StaticResource SmallMargin}"/>
+            <Button Content="Отмена" 
+                    Click="Cancel_Click"
+                    Width="120"
+                    Margin="{StaticResource SmallMargin}"/>
+        </StackPanel>
+    </Grid>
+</Page>
