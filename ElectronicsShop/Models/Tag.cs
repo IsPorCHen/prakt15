@@ -1,13 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
 
-namespace ElectronicsShop.Models;
-
-public partial class Tag
+namespace ElectronicsShop.Models
 {
-    public int Id { get; set; }
+    public class Tag
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = null!;
 
-    public string Name { get; set; } = null!;
+        public virtual ICollection<ProductTag> ProductTags { get; set; } = new List<ProductTag>();
 
-    public virtual ICollection<Product> Products { get; set; } = new List<Product>();
+        [NotMapped]
+        public List<Product> Products => ProductTags.Select(pt => pt.Product).ToList();
+    }
 }

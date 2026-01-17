@@ -6,6 +6,7 @@ C:\Users\fazy2\source\repos\ElectronicsShop\ElectronicsShop\obj\Debug\net8.0-win
 C:\Users\fazy2\source\repos\ElectronicsShop\ElectronicsShop\obj\Debug\net8.0-windows\Styles\StylesDictionary.baml
 C:\Users\fazy2\source\repos\ElectronicsShop\ElectronicsShop\obj\Debug\net8.0-windows\App.baml
 C:\Users\fazy2\source\repos\ElectronicsShop\ElectronicsShop\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\fazy2\source\repos\ElectronicsShop\ElectronicsShop\obj\Debug\net8.0-windows\Pages\BrandEditPage.g.cs
 C:\Users\fazy2\source\repos\ElectronicsShop\ElectronicsShop\obj\Debug\net8.0-windows\Pages\CatalogPage.g.cs
 C:\Users\fazy2\source\repos\ElectronicsShop\ElectronicsShop\obj\Debug\net8.0-windows\Pages\CategoryEditPage.g.cs
 C:\Users\fazy2\source\repos\ElectronicsShop\ElectronicsShop\obj\Debug\net8.0-windows\Pages\LoginPage.g.cs
@@ -148,7 +149,6 @@ C:\Users\fazy2\source\repos\ElectronicsShop\ElectronicsShop\bin\Debug\net8.0-win
 C:\Users\fazy2\source\repos\ElectronicsShop\ElectronicsShop\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\fazy2\source\repos\ElectronicsShop\ElectronicsShop\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\fazy2\source\repos\ElectronicsShop\ElectronicsShop\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
-C:\Users\fazy2\source\repos\ElectronicsShop\ElectronicsShop\obj\Debug\net8.0-windows\Pages\BrandEditPage.g.cs
 C:\Users\fazy2\source\repos\ElectronicsShop\ElectronicsShop\obj\Debug\net8.0-windows\Pages\BrandEditPage.baml
 C:\Users\fazy2\source\repos\ElectronicsShop\ElectronicsShop\obj\Debug\net8.0-windows\Pages\CategoryEditPage.baml
 C:\Users\fazy2\source\repos\ElectronicsShop\ElectronicsShop\obj\Debug\net8.0-windows\Pages\ProductEditPage.baml
@@ -158,6 +158,7 @@ C:\Users\fazy2\source\repos\ElectronicsShop\ElectronicsShop\obj\Debug\net8.0-win
 C:\Users\fazy2\source\repos\ElectronicsShop\ElectronicsShop\obj\Debug\net8.0-windows\ElectronicsShop.AssemblyInfoInputs.cache
 C:\Users\fazy2\source\repos\ElectronicsShop\ElectronicsShop\obj\Debug\net8.0-windows\ElectronicsShop.AssemblyInfo.cs
 C:\Users\fazy2\source\repos\ElectronicsShop\ElectronicsShop\obj\Debug\net8.0-windows\ElectronicsShop.csproj.CoreCompileInputs.cache
+C:\Users\fazy2\source\repos\ElectronicsShop\ElectronicsShop\obj\Debug\net8.0-windows\ElectronicsShop.sourcelink.json
 C:\Users\fazy2\source\repos\ElectronicsShop\ElectronicsShop\obj\Debug\net8.0-windows\Electron.24A54A66.Up2Date
 C:\Users\fazy2\source\repos\ElectronicsShop\ElectronicsShop\obj\Debug\net8.0-windows\ElectronicsShop.dll
 C:\Users\fazy2\source\repos\ElectronicsShop\ElectronicsShop\obj\Debug\net8.0-windows\refint\ElectronicsShop.dll

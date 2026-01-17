@@ -1,15 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace ElectronicsShop.Models;
+using System.Collections.Generic;
 
-public partial class Brand
+namespace ElectronicsShop.Models
 {
-    public int Id { get; set; }
+    public class Brand
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = null!;
+        public string? Country { get; set; }
 
-    public string Name { get; set; } = null!;
-
-    public string? Country { get; set; }
-
-    public virtual ICollection<Product> Products { get; set; } = new List<Product>();
+        public virtual ICollection<Product> Products { get; set; } = new List<Product>();
+    }
 }

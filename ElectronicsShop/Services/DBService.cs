@@ -1,26 +1,23 @@
 ﻿using ElectronicsShop.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace ElectronicsShop.Services
 {
     public class DBService
     {
-        private ElectronicsShopDbContext context;
-        public ElectronicsShopDbContext Context => context;
-
         private static DBService? instance;
-        public static DBService Instance
-        {
-            get
-            {
-                if (instance == null)
-                    instance = new DBService();
-                return instance;
-            }
-        }
+        public static DBService Instance => instance ??= new DBService();
+
+        public ElectronicsShopDbContext Context { get; private set; }
 
         private DBService()
         {
-            context = new ElectronicsShopDbContext();
+            var optionsBuilder = new DbContextOptionsBuilder<ElectronicsShopDbContext>();
+            var options = optionsBuilder
+                .UseSqlServer("Server=IPCH-NOTEBOOK\\IPCHSERVER;Database=ElectronicsShopDB;Trusted_Connection=True;TrustServerCertificate=True;")
+                .Options;
+
+            Context = new ElectronicsShopDbContext(options);
         }
     }
 }

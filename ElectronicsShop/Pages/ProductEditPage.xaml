@@ -70,6 +70,18 @@
                     </TextBox.Text>
                 </TextBox>
 
+                <Label Content="Рейтинг (0-5)" FontWeight="Bold" Margin="0,10,0,0"/>
+                <TextBox materialDesign:HintAssist.Hint="Введите рейтинг от 0 до 5"
+                         PreviewTextInput="RatingValidation_PreviewTextInput">
+                    <TextBox.Text>
+                        <Binding Path="ProductRating" UpdateSourceTrigger="PropertyChanged" NotifyOnValidationError="True">
+                            <Binding.ValidationRules>
+                                <validation:OptionalDecimalValidationRule/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+
                 <Label Content="Категория *" FontWeight="Bold" Margin="0,10,0,0"/>
                 <ComboBox ItemsSource="{Binding Categories}"
                           DisplayMemberPath="Name"

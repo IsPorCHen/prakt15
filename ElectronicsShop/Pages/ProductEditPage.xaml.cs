@@ -66,6 +66,17 @@ namespace ElectronicsShop.Pages
             }
         }
 
+        private string productRating = string.Empty;
+        public string ProductRating
+        {
+            get => productRating;
+            set
+            {
+                productRating = value;
+                OnPropertyChanged(nameof(ProductRating));
+            }
+        }
+
         private int? selectedCategoryId;
         public int? SelectedCategoryId
         {
@@ -148,6 +159,7 @@ namespace ElectronicsShop.Pages
             ProductDescription = currentProduct.Description ?? string.Empty;
             ProductPrice = currentProduct.Price.ToString("F2");
             ProductQuantity = currentProduct.Quantity.ToString();
+            ProductRating = currentProduct.Rating > 0 ? currentProduct.Rating.ToString("F1") : "";
             SelectedCategoryId = currentProduct.CategoryId;
             SelectedBrandId = currentProduct.BrandId;
 
@@ -179,6 +191,7 @@ namespace ElectronicsShop.Pages
                         Description = string.IsNullOrWhiteSpace(ProductDescription) ? null : ProductDescription.Trim(),
                         Price = decimal.Parse(ProductPrice.Trim()),
                         Quantity = int.Parse(ProductQuantity.Trim()),
+                        Rating = string.IsNullOrWhiteSpace(ProductRating) ? 0 : decimal.Parse(ProductRating.Trim()),
                         CategoryId = SelectedCategoryId.Value,
                         BrandId = SelectedBrandId.Value
                     };
@@ -207,6 +220,7 @@ namespace ElectronicsShop.Pages
                     currentProduct.Description = string.IsNullOrWhiteSpace(ProductDescription) ? null : ProductDescription.Trim();
                     currentProduct.Price = decimal.Parse(ProductPrice.Trim());
                     currentProduct.Quantity = int.Parse(ProductQuantity.Trim());
+                    currentProduct.Rating = string.IsNullOrWhiteSpace(ProductRating) ? 0 : decimal.Parse(ProductRating.Trim());
                     currentProduct.CategoryId = SelectedCategoryId.Value;
                     currentProduct.BrandId = SelectedBrandId.Value;
 
@@ -240,7 +254,6 @@ namespace ElectronicsShop.Pages
             }
         }
 
-
         private bool ValidateForm()
         {
             bool isValid = true;
@@ -257,6 +270,12 @@ namespace ElectronicsShop.Pages
             if (string.IsNullOrWhiteSpace(ProductQuantity) || !int.TryParse(ProductQuantity, out int qty) || qty < 0)
                 isValid = false;
 
+            if (!string.IsNullOrWhiteSpace(ProductRating))
+            {
+                if (!decimal.TryParse(ProductRating, out decimal rating) || rating < 0 || rating > 5)
+                    isValid = false;
+            }
+
             if (!SelectedCategoryId.HasValue)
                 isValid = false;
 
@@ -265,7 +284,6 @@ namespace ElectronicsShop.Pages
 
             return isValid;
         }
-
 
         private void Cancel_Click(object sender, RoutedEventArgs e)
         {
@@ -288,11 +306,43 @@ namespace ElectronicsShop.Pages
             e.Handled = !regex.IsMatch(e.Text);
         }
 
+        private void RatingValidation_PreviewTextInput(object sender, TextCompositionEventArgs e)
+        {
+            var textBox = sender as TextBox;
+            var fullText = textBox.Text.Insert(textBox.SelectionStart, e.Text);
+
+            Regex regex = new Regex(@"^\d*\.?\d*$");
+            if (!regex.IsMatch(fullText))
+            {
+                e.Handled = true;
+                return;
+            }
+            if (decimal.TryParse(fullText, out decimal value))
+            {
+                if (value < 0 || value > 5)
+                {
+                    e.Handled = true;
+                    return;
+                }
+            }
+
+            e.Handled = false;
+        }
+
         private void PriceTextBox_LostFocus(object sender, RoutedEventArgs e)
         {
             if (sender is TextBox textBox && decimal.TryParse(textBox.Text, out decimal price))
             {
                 textBox.Text = price.ToString("F2");
+            }
+        }
+
+        private void RatingTextBox_LostFocus(object sender, RoutedEventArgs e)
+        {
+            if (sender is TextBox textBox && decimal.TryParse(textBox.Text, out decimal rating))
+            {
+                rating = Math.Max(0, Math.Min(5, rating));
+                textBox.Text = rating.ToString("F1");
             }
         }
     }

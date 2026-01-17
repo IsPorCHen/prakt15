@@ -3,16 +3,88 @@
   "WorkspaceRootPath": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Migrations\\20260117005921_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ElectronicsShop\\Migrations\\20260117005921_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|c:\\users\\fazy2\\source\\repos\\electronicsshop\\electronicsshop\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|solutionrelative:electronicsshop\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Migrations\\20260117005504_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ElectronicsShop\\Migrations\\20260117005504_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|c:\\users\\fazy2\\source\\repos\\electronicsshop\\electronicsshop\\models\\electronicsshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|solutionrelative:electronicsshop\\models\\electronicsshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|c:\\users\\fazy2\\source\\repos\\electronicsshop\\electronicsshop\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|solutionrelative:electronicsshop\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|c:\\users\\fazy2\\source\\repos\\electronicsshop\\electronicsshop\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|solutionrelative:electronicsshop\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|c:\\users\\fazy2\\source\\repos\\electronicsshop\\electronicsshop\\services\\dbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|solutionrelative:electronicsshop\\services\\dbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|c:\\users\\fazy2\\source\\repos\\electronicsshop\\electronicsshop\\pages\\brandeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|solutionrelative:electronicsshop\\pages\\brandeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|c:\\users\\fazy2\\source\\repos\\electronicsshop\\electronicsshop\\models\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|solutionrelative:electronicsshop\\models\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|c:\\users\\fazy2\\source\\repos\\electronicsshop\\electronicsshop\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|solutionrelative:electronicsshop\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|c:\\users\\fazy2\\source\\repos\\electronicsshop\\electronicsshop\\pages\\catalogpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|solutionrelative:electronicsshop\\pages\\catalogpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|c:\\users\\fazy2\\source\\repos\\electronicsshop\\electronicsshop\\pages\\producteditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|solutionrelative:electronicsshop\\pages\\producteditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|c:\\users\\fazy2\\source\\repos\\electronicsshop\\electronicsshop\\pages\\producteditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|solutionrelative:electronicsshop\\pages\\producteditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|c:\\users\\fazy2\\source\\repos\\electronicsshop\\electronicsshop\\pages\\tageditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|solutionrelative:electronicsshop\\pages\\tageditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|c:\\users\\fazy2\\source\\repos\\electronicsshop\\electronicsshop\\pages\\managedatapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|solutionrelative:electronicsshop\\pages\\managedatapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|c:\\users\\fazy2\\source\\repos\\electronicsshop\\electronicsshop\\pages\\managedatapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|solutionrelative:electronicsshop\\pages\\managedatapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|c:\\users\\fazy2\\source\\repos\\electronicsshop\\electronicsshop\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|solutionrelative:electronicsshop\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|c:\\users\\fazy2\\source\\repos\\electronicsshop\\electronicsshop\\pages\\categoryeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|solutionrelative:electronicsshop\\pages\\categoryeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|c:\\users\\fazy2\\source\\repos\\electronicsshop\\electronicsshop\\pages\\catalogpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|solutionrelative:electronicsshop\\pages\\catalogpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|c:\\users\\fazy2\\source\\repos\\electronicsshop\\electronicsshop\\styles\\stylesdictionary.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|solutionrelative:electronicsshop\\styles\\stylesdictionary.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|c:\\users\\fazy2\\source\\repos\\electronicsshop\\electronicsshop\\pages\\categoryeditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|solutionrelative:electronicsshop\\pages\\categoryeditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|c:\\users\\fazy2\\source\\repos\\electronicsshop\\electronicsshop\\pages\\categoryeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|solutionrelative:electronicsshop\\pages\\categoryeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|c:\\users\\fazy2\\source\\repos\\electronicsshop\\electronicsshop\\validation\\requiredfieldvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,18 +117,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|c:\\users\\fazy2\\source\\repos\\electronicsshop\\electronicsshop\\validation\\comboboxselectionvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|solutionrelative:electronicsshop\\validation\\comboboxselectionvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|c:\\users\\fazy2\\source\\repos\\electronicsshop\\electronicsshop\\pages\\brandeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|solutionrelative:electronicsshop\\pages\\brandeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|c:\\users\\fazy2\\source\\repos\\electronicsshop\\electronicsshop\\pages\\catalogpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|solutionrelative:electronicsshop\\pages\\catalogpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|c:\\users\\fazy2\\source\\repos\\electronicsshop\\electronicsshop\\pages\\catalogpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8B449C2-8531-44DE-AB75-D2BBE864E243}|ElectronicsShop\\ElectronicsShop.csproj|solutionrelative:electronicsshop\\pages\\catalogpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -71,150 +131,129 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StylesDictionary.xaml",
-              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Styles\\StylesDictionary.xaml",
-              "RelativeDocumentMoniker": "ElectronicsShop\\Styles\\StylesDictionary.xaml",
-              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Styles\\StylesDictionary.xaml",
-              "RelativeToolTip": "ElectronicsShop\\Styles\\StylesDictionary.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-17T00:09:31.544Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoryEditPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\CategoryEditPage.xaml.cs",
-              "RelativeDocumentMoniker": "ElectronicsShop\\Pages\\CategoryEditPage.xaml.cs",
-              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\CategoryEditPage.xaml.cs",
-              "RelativeToolTip": "ElectronicsShop\\Pages\\CategoryEditPage.xaml.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAA3wHYAAAABAAAAAAAAAA==",
+              "Title": "20260117005921_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Migrations\\20260117005921_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ElectronicsShop\\Migrations\\20260117005921_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Migrations\\20260117005921_InitialCreate.cs",
+              "RelativeToolTip": "ElectronicsShop\\Migrations\\20260117005921_InitialCreate.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T00:04:37.956Z",
+              "WhenOpened": "2026-01-17T00:59:21.573Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CategoryEditPage.xaml",
-              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\CategoryEditPage.xaml",
-              "RelativeDocumentMoniker": "ElectronicsShop\\Pages\\CategoryEditPage.xaml",
-              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\CategoryEditPage.xaml",
-              "RelativeToolTip": "ElectronicsShop\\Pages\\CategoryEditPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-17T00:04:32.557Z"
+              "Title": "20260117005504_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Migrations\\20260117005504_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ElectronicsShop\\Migrations\\20260117005504_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Migrations\\20260117005504_InitialCreate.cs",
+              "RelativeToolTip": "ElectronicsShop\\Migrations\\20260117005504_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T00:55:04.334Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RequiredFieldValidationRule.cs",
-              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\RequiredFieldValidationRule.cs",
-              "RelativeDocumentMoniker": "ElectronicsShop\\Validation\\RequiredFieldValidationRule.cs",
-              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\RequiredFieldValidationRule.cs",
-              "RelativeToolTip": "ElectronicsShop\\Validation\\RequiredFieldValidationRule.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAgwBsAAAAAAAAAAAAAAA==",
+              "Title": "ElectronicsShopDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Models\\ElectronicsShopDbContext.cs",
+              "RelativeDocumentMoniker": "ElectronicsShop\\Models\\ElectronicsShopDbContext.cs",
+              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Models\\ElectronicsShopDbContext.cs",
+              "RelativeToolTip": "ElectronicsShop\\Models\\ElectronicsShopDbContext.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAUwEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T00:01:39.761Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PositiveDecimalValidationRule.cs",
-              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\PositiveDecimalValidationRule.cs",
-              "RelativeDocumentMoniker": "ElectronicsShop\\Validation\\PositiveDecimalValidationRule.cs",
-              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\PositiveDecimalValidationRule.cs",
-              "RelativeToolTip": "ElectronicsShop\\Validation\\PositiveDecimalValidationRule.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAywCUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T00:01:36.054Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OptionalDecimalValidationRule.cs",
-              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\OptionalDecimalValidationRule.cs",
-              "RelativeDocumentMoniker": "ElectronicsShop\\Validation\\OptionalDecimalValidationRule.cs",
-              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\OptionalDecimalValidationRule.cs",
-              "RelativeToolTip": "ElectronicsShop\\Validation\\OptionalDecimalValidationRule.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAIwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T00:01:31.719Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NonNegativeIntegerValidationRule.cs",
-              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\NonNegativeIntegerValidationRule.cs",
-              "RelativeDocumentMoniker": "ElectronicsShop\\Validation\\NonNegativeIntegerValidationRule.cs",
-              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\NonNegativeIntegerValidationRule.cs",
-              "RelativeToolTip": "ElectronicsShop\\Validation\\NonNegativeIntegerValidationRule.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAywCUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T00:01:27.648Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MaxLengthValidationRule.cs",
-              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\MaxLengthValidationRule.cs",
-              "RelativeDocumentMoniker": "ElectronicsShop\\Validation\\MaxLengthValidationRule.cs",
-              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\MaxLengthValidationRule.cs",
-              "RelativeToolTip": "ElectronicsShop\\Validation\\MaxLengthValidationRule.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAwwBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T00:01:22.245Z"
+              "WhenOpened": "2026-01-17T00:37:51.294Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "IntegerFormatValidationRule.cs",
-              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\IntegerFormatValidationRule.cs",
-              "RelativeDocumentMoniker": "ElectronicsShop\\Validation\\IntegerFormatValidationRule.cs",
-              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\IntegerFormatValidationRule.cs",
-              "RelativeToolTip": "ElectronicsShop\\Validation\\IntegerFormatValidationRule.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAIwCAAAAAAAAAAAAAAAA==",
+              "Title": "ProductTag.cs",
+              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Models\\ProductTag.cs",
+              "RelativeDocumentMoniker": "ElectronicsShop\\Models\\ProductTag.cs",
+              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Models\\ProductTag.cs",
+              "RelativeToolTip": "ElectronicsShop\\Models\\ProductTag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T00:01:17.609Z"
+              "WhenOpened": "2026-01-17T00:36:49.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "ElectronicsShop\\Models\\Tag.cs",
+              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Models\\Tag.cs",
+              "RelativeToolTip": "ElectronicsShop\\Models\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T00:36:32.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ElectronicsShop\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Models\\Category.cs",
+              "RelativeToolTip": "ElectronicsShop\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T00:36:07.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ElectronicsShop\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Models\\Product.cs",
+              "RelativeToolTip": "ElectronicsShop\\Models\\Product.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAABgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T00:35:45.121Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "DecimalFormatValidationRule.cs",
-              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\DecimalFormatValidationRule.cs",
-              "RelativeDocumentMoniker": "ElectronicsShop\\Validation\\DecimalFormatValidationRule.cs",
-              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\DecimalFormatValidationRule.cs",
-              "RelativeToolTip": "ElectronicsShop\\Validation\\DecimalFormatValidationRule.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAIwCAAAAAAAAAAAAAAAA==",
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Models\\Brand.cs",
+              "RelativeDocumentMoniker": "ElectronicsShop\\Models\\Brand.cs",
+              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Models\\Brand.cs",
+              "RelativeToolTip": "ElectronicsShop\\Models\\Brand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T00:01:13.151Z"
+              "WhenOpened": "2026-01-17T00:35:26.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BrandEditPage.xaml",
+              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\BrandEditPage.xaml",
+              "RelativeDocumentMoniker": "ElectronicsShop\\Pages\\BrandEditPage.xaml",
+              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\BrandEditPage.xaml",
+              "RelativeToolTip": "ElectronicsShop\\Pages\\BrandEditPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-16T23:37:19.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DBService.cs",
+              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Services\\DBService.cs",
+              "RelativeDocumentMoniker": "ElectronicsShop\\Services\\DBService.cs",
+              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Services\\DBService.cs",
+              "RelativeToolTip": "ElectronicsShop\\Services\\DBService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T00:18:23.772Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ComboBoxSelectionValidationRule.cs",
-              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\ComboBoxSelectionValidationRule.cs",
-              "RelativeDocumentMoniker": "ElectronicsShop\\Validation\\ComboBoxSelectionValidationRule.cs",
-              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\ComboBoxSelectionValidationRule.cs",
-              "RelativeToolTip": "ElectronicsShop\\Validation\\ComboBoxSelectionValidationRule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T00:01:08.722Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CatalogPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\CatalogPage.xaml.cs",
-              "RelativeDocumentMoniker": "ElectronicsShop\\Pages\\CatalogPage.xaml.cs",
-              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\CatalogPage.xaml.cs",
-              "RelativeToolTip": "ElectronicsShop\\Pages\\CatalogPage.xaml.cs",
-              "ViewState": "AgIAAM4AAAAAAAAAAADwv+gAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T23:38:14Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "CatalogPage.xaml",
               "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\CatalogPage.xaml",
               "RelativeDocumentMoniker": "ElectronicsShop\\Pages\\CatalogPage.xaml",
@@ -226,13 +265,212 @@
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "BrandEditPage.xaml",
-              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\BrandEditPage.xaml",
-              "RelativeDocumentMoniker": "ElectronicsShop\\Pages\\BrandEditPage.xaml",
-              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\BrandEditPage.xaml",
-              "RelativeToolTip": "ElectronicsShop\\Pages\\BrandEditPage.xaml",
+              "Title": "ProductEditPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\ProductEditPage.xaml.cs",
+              "RelativeDocumentMoniker": "ElectronicsShop\\Pages\\ProductEditPage.xaml.cs",
+              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\ProductEditPage.xaml.cs",
+              "RelativeToolTip": "ElectronicsShop\\Pages\\ProductEditPage.xaml.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAmwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T00:18:08.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductEditPage.xaml",
+              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\ProductEditPage.xaml",
+              "RelativeDocumentMoniker": "ElectronicsShop\\Pages\\ProductEditPage.xaml",
+              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\ProductEditPage.xaml",
+              "RelativeToolTip": "ElectronicsShop\\Pages\\ProductEditPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-16T23:37:19.022Z"
+              "WhenOpened": "2026-01-17T00:18:03.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TagEditPage.xaml",
+              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\TagEditPage.xaml",
+              "RelativeDocumentMoniker": "ElectronicsShop\\Pages\\TagEditPage.xaml",
+              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\TagEditPage.xaml",
+              "RelativeToolTip": "ElectronicsShop\\Pages\\TagEditPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-17T00:18:12.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ManageDataPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\ManageDataPage.xaml.cs",
+              "RelativeDocumentMoniker": "ElectronicsShop\\Pages\\ManageDataPage.xaml.cs",
+              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\ManageDataPage.xaml.cs",
+              "RelativeToolTip": "ElectronicsShop\\Pages\\ManageDataPage.xaml.cs",
+              "ViewState": "AgIAAPEAAAAAAAAAAAAcwA4BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T00:17:58.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ManageDataPage.xaml",
+              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\ManageDataPage.xaml",
+              "RelativeDocumentMoniker": "ElectronicsShop\\Pages\\ManageDataPage.xaml",
+              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\ManageDataPage.xaml",
+              "RelativeToolTip": "ElectronicsShop\\Pages\\ManageDataPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-17T00:16:41.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "ElectronicsShop\\Pages\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\LoginPage.xaml",
+              "RelativeToolTip": "ElectronicsShop\\Pages\\LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-17T00:16:39.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "StylesDictionary.xaml",
+              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Styles\\StylesDictionary.xaml",
+              "RelativeDocumentMoniker": "ElectronicsShop\\Styles\\StylesDictionary.xaml",
+              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Styles\\StylesDictionary.xaml",
+              "RelativeToolTip": "ElectronicsShop\\Styles\\StylesDictionary.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-17T00:09:31.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CategoryEditPage.xaml",
+              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\CategoryEditPage.xaml",
+              "RelativeDocumentMoniker": "ElectronicsShop\\Pages\\CategoryEditPage.xaml",
+              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\CategoryEditPage.xaml",
+              "RelativeToolTip": "ElectronicsShop\\Pages\\CategoryEditPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-17T00:04:32.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CategoryEditPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\CategoryEditPage.xaml.cs",
+              "RelativeDocumentMoniker": "ElectronicsShop\\Pages\\CategoryEditPage.xaml.cs",
+              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\CategoryEditPage.xaml.cs",
+              "RelativeToolTip": "ElectronicsShop\\Pages\\CategoryEditPage.xaml.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAA3wHYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T00:04:37.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CatalogPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\CatalogPage.xaml.cs",
+              "RelativeDocumentMoniker": "ElectronicsShop\\Pages\\CatalogPage.xaml.cs",
+              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Pages\\CatalogPage.xaml.cs",
+              "RelativeToolTip": "ElectronicsShop\\Pages\\CatalogPage.xaml.cs",
+              "ViewState": "AgIAAM4AAAAAAAAAAADwv+gAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T23:38:14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PositiveDecimalValidationRule.cs",
+              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\PositiveDecimalValidationRule.cs",
+              "RelativeDocumentMoniker": "ElectronicsShop\\Validation\\PositiveDecimalValidationRule.cs",
+              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\PositiveDecimalValidationRule.cs",
+              "RelativeToolTip": "ElectronicsShop\\Validation\\PositiveDecimalValidationRule.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAywCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T00:01:36.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RequiredFieldValidationRule.cs",
+              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\RequiredFieldValidationRule.cs",
+              "RelativeDocumentMoniker": "ElectronicsShop\\Validation\\RequiredFieldValidationRule.cs",
+              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\RequiredFieldValidationRule.cs",
+              "RelativeToolTip": "ElectronicsShop\\Validation\\RequiredFieldValidationRule.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T00:01:39.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OptionalDecimalValidationRule.cs",
+              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\OptionalDecimalValidationRule.cs",
+              "RelativeDocumentMoniker": "ElectronicsShop\\Validation\\OptionalDecimalValidationRule.cs",
+              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\OptionalDecimalValidationRule.cs",
+              "RelativeToolTip": "ElectronicsShop\\Validation\\OptionalDecimalValidationRule.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T00:01:31.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "NonNegativeIntegerValidationRule.cs",
+              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\NonNegativeIntegerValidationRule.cs",
+              "RelativeDocumentMoniker": "ElectronicsShop\\Validation\\NonNegativeIntegerValidationRule.cs",
+              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\NonNegativeIntegerValidationRule.cs",
+              "RelativeToolTip": "ElectronicsShop\\Validation\\NonNegativeIntegerValidationRule.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAywCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T00:01:27.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MaxLengthValidationRule.cs",
+              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\MaxLengthValidationRule.cs",
+              "RelativeDocumentMoniker": "ElectronicsShop\\Validation\\MaxLengthValidationRule.cs",
+              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\MaxLengthValidationRule.cs",
+              "RelativeToolTip": "ElectronicsShop\\Validation\\MaxLengthValidationRule.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T00:01:22.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IntegerFormatValidationRule.cs",
+              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\IntegerFormatValidationRule.cs",
+              "RelativeDocumentMoniker": "ElectronicsShop\\Validation\\IntegerFormatValidationRule.cs",
+              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\IntegerFormatValidationRule.cs",
+              "RelativeToolTip": "ElectronicsShop\\Validation\\IntegerFormatValidationRule.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T00:01:17.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DecimalFormatValidationRule.cs",
+              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\DecimalFormatValidationRule.cs",
+              "RelativeDocumentMoniker": "ElectronicsShop\\Validation\\DecimalFormatValidationRule.cs",
+              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\DecimalFormatValidationRule.cs",
+              "RelativeToolTip": "ElectronicsShop\\Validation\\DecimalFormatValidationRule.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T00:01:13.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ComboBoxSelectionValidationRule.cs",
+              "DocumentMoniker": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\ComboBoxSelectionValidationRule.cs",
+              "RelativeDocumentMoniker": "ElectronicsShop\\Validation\\ComboBoxSelectionValidationRule.cs",
+              "ToolTip": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\Validation\\ComboBoxSelectionValidationRule.cs",
+              "RelativeToolTip": "ElectronicsShop\\Validation\\ComboBoxSelectionValidationRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T00:01:08.722Z"
             }
           ]
         }
