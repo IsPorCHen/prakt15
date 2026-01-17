@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\ElectronicsShop.csproj": {}
+    "C:\\Users\\fazy2\\source\\repos\\prakt15\\ElectronicsShop\\ElectronicsShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\ElectronicsShop.csproj": {
+    "C:\\Users\\fazy2\\source\\repos\\prakt15\\ElectronicsShop\\ElectronicsShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\ElectronicsShop.csproj",
+        "projectUniqueName": "C:\\Users\\fazy2\\source\\repos\\prakt15\\ElectronicsShop\\ElectronicsShop.csproj",
         "projectName": "ElectronicsShop",
-        "projectPath": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\ElectronicsShop.csproj",
+        "projectPath": "C:\\Users\\fazy2\\source\\repos\\prakt15\\ElectronicsShop\\ElectronicsShop.csproj",
         "packagesPath": "C:\\Users\\fazy2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fazy2\\source\\repos\\ElectronicsShop\\ElectronicsShop\\obj\\",
+        "outputPath": "C:\\Users\\fazy2\\source\\repos\\prakt15\\ElectronicsShop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fazy2\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -56,7 +56,7 @@ namespace ElectronicsShop.Pages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ElectronicsShop;component/pages/brandeditpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ElectronicsShop;V1.0.0.0;component/pages/brandeditpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Pages\BrandEditPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
